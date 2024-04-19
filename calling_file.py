@@ -1,4 +1,4 @@
-
+# this file and modules.py file are connected
 balance = 5000
 
 def add_kor(*numbers):
