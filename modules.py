@@ -1,3 +1,4 @@
+# this file and calling.py file are connected
 # calling function of others file
 
 from calling_file import add_kor as adding
