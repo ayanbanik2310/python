@@ -6,14 +6,13 @@ class calculator:
         self.num2 = num2
 
     def addision(self):
-        return mycalcu.num1+mycalcu.num2
+        return self.num1+self.num2
     def subtraction(self):
-        return mycalcu.num1 - mycalcu.num2
+        return self.num1 - self.num2
     def multiplication(self):
-        return mycalcu.num1* mycalcu.num2
+        return self.num1* self.num2
     def division(self):
-        return mycalcu.num1 / mycalcu.num2
-
+        return self.num1 / self.num2
 
 if __name__ == '__main__':
     num1 = int(input('enter number 1 : '))
